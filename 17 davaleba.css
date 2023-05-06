@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Adamina;
+    src: url(fonts/Adamina-Regular.ttf);
+}
+@font-face {
+    font-family: Abel;
+    src: url(fonts/Abel-Regular.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #06b9a5 !important;
+    margin: 0;
+    background-image: url(img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position-y: bottom;
+}
+.container-fluid {
+    background-color: rgba(99,194,184,255);
+}
+.side-menu {
+    flex: none;
+    border: none;
+}
+ul {
+    width: 120px;
+    height: 200px;
+    background-color: rgba(193, 220, 220, 1);
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    background-color: #515DEF;
+}
+.side-menu:hover ul {
+    display: block !important;
+}
+.home, .trip, .about, .shop {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link:active, a:visited:active {
+    text-decoration: none;
+    cursor: default;
+}
+.title-1 {
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 68px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3vh;
+}
+.second-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.title-2-1 {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 64px;
+    color: #000000;
+    margin-top: 3px;
+}
+.title-2-2 {
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 68px;
+    color: #000000;
+    margin-left: 13px;
+}
+.section-1 {
+    width: 518px;
+    margin-left: 10vw;
+    margin-top: 8vh;
+}
+.title-3 {
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.5vh;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 2vh;
+}
+p {
+    width: 465px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.button {
+    margin-top: 15vh;
+    width: 12vw;
+    height: 8vh;
+    background: #09C2AE;
+    box-shadow: 0px 40px 21px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6vw;
+}
+.section-2 {
+    display: grid;
+    gap: 5vh;
+    margin-top: 8vh;
+}
